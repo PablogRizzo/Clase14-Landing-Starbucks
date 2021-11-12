@@ -209,6 +209,10 @@
     line-height: 1;
 }
 
+.rasrasras h3,h4{
+    font-size: 30px;
+}
+
 .top-text{
     width: 580px;
     height: 20%;
@@ -267,4 +271,76 @@
 
 .d-text p a{
     color: green;
+}
+
+.ofers{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Dongle', sans-serif ;
+    font-size: 20px;
+}
+.star{
+    background-color: #f1f7f5;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.yellow{
+    color: #fafc93;
+}
+.coffee{
+    
+    background-color: #d4e9e2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+}
+.coffee__txt{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+.coffee__img{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.coffee__img img{
+    width: 60%;
+    height: 95%;
+}
+.extras{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.extras__txt{
+    text-align: center;
+    width: 40%;
+    margin: 30px;
+}
+.extras__img{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.extras__img img{
+    width: 100px;
+    height: 100px;
 }
